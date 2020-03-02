@@ -7,7 +7,7 @@ How to use "All in one file converter"
 
 3. Run app.py from text editir, IDE or form command prompt
 
-4. Open http://127.0.0.1:6006/ from local PC
+4. Open http://127.0.0.1:6008/ from local PC
 
 5. Upload any file with  '.pdf', .jpg', '.png', '.bmp', '.ppm', '.gif', '.tiff' extension
 
