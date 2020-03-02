@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<form action="{{(url_for('upload'))}}" method="post" enctype="multipart/form-data">
+    Allowed File Types: 'JPG', 'PNG', 'BMP', 'PPM', 'GIF', 'TIFF', 'PDF'
+    <input type="file" name="file" id="fileToUpload">
+
+    <select name = "dropdown">
+            <option value = ".jpg" selected>JPG</option>
+            <option value = ".png">PNG</option>
+            <option value = ".bmp">BMP</option>
+            <option value = ".ppm">PPM</option>
+            <option value = ".gif">GIF</option>
+            <option value = ".tiff">TIFF</option>
+    </select>
+
+    <input type="submit" value="Upload and Convert File" name="submit">
+</form>
+</body>
+</html>

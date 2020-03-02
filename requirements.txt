@@ -1,0 +1,6 @@
+# Python 3.7 or higher
+
+pip install flask
+pip intall pdf2image
+pip install Pillow
+pip install uuid
